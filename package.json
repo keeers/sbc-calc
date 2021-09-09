@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keeers/sbccalc.git"
+    "url": "git+https://github.com/keeers/sbc-calc.git"
   },
   "keywords": [
     "JS",
@@ -22,9 +22,9 @@
   "author": "Denis Belkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keeers/sbccalc/issues"
+    "url": "https://github.com/keeers/sbc-calc/issues"
   },
-  "homepage": "https://github.com/keeers/sbccalc#readme",
+  "homepage": "https://github.com/keeers/sbc-calc#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
