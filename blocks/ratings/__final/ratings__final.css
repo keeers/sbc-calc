@@ -1,0 +1,22 @@
+.ratings__final{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    align-items: center;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    margin-right: 150px;
+}
+
+.ratings__final:hover{
+    border-image-source: linear-gradient(to right, yellow, lime);
+}
+
+@media screen and (max-width:850px) {
+    .ratings__final{
+       margin: 0;
+       margin-bottom: 15px;
+       justify-content: center;
+    }
+}

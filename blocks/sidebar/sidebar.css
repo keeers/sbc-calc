@@ -1,0 +1,21 @@
+.sidebar{
+    position: fixed;
+    background: rgba(1, 1, 1, 0.95);
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100vh;
+    display: flex;
+    transition: width 0.5s, height 0.5s ease-in-out;
+}
+
+@media screen and (max-width:750px) {
+    .sidebar{
+        height: 35px;
+        width: 100%;
+        top: calc(100%-35px);
+        background: transparent;
+        border: 1px solid gray;
+    }
+    
+}

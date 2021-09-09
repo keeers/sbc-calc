@@ -1,0 +1,11 @@
+.ratings{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:750px) {
+    .ratings{
+       margin-top: 20px;
+    }
+}

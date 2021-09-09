@@ -1,0 +1,14 @@
+.sidebar__button_is-active{
+    top: 75px;
+    background: url(../../../../images/previous.svg) transparent;
+}
+
+@media screen and (max-width:750px) {
+    .sidebar__button_is-active{
+        top: 80px;
+        left: 275px;
+        background: url(../../../../images/down.svg) transparent;
+        background-size: cover;
+    }
+    
+}

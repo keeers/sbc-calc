@@ -1,0 +1,19 @@
+.content{
+    width: 90%;
+    margin: 0;
+    min-height: 100vh;
+    margin-left: 75px;
+}
+
+@media screen and (max-width:950px) {
+    .content{
+        margin-left: 62px;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .content{
+        margin: 0 auto;
+    }
+}

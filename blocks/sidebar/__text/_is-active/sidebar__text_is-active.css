@@ -1,0 +1,4 @@
+.sidebar__text_is-active{
+    visibility: hidden;
+    opacity: 0;
+}

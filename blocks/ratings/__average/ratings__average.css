@@ -1,0 +1,21 @@
+.ratings__average{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    align-items: center;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+    margin-left: 150px;
+}
+
+.ratings__average:hover{
+    border-image-source: linear-gradient(to right, yellow, lime);
+}
+
+@media screen and (max-width:850px) {
+    .ratings__average{
+       margin: 0;
+       justify-content: center;
+    }
+}

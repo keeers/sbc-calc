@@ -1,0 +1,24 @@
+.sidebar__link{
+    color: white;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+.sidebar__link:last-of-type{
+    margin-bottom: 0px;
+}
+
+.sidebar__link:hover{
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px) {
+    .sidebar__link{
+        margin-left: 5px;
+    }
+}

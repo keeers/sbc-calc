@@ -1,0 +1,23 @@
+.sidebar__text{
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    color: white;
+    top: 35px;
+    left: 10px;
+    font-size: 42px;
+    line-height: 1.15;
+    word-break: break-all;
+    transition: visibility 0.1s, opacity 0.1s ease-in-out;
+}
+
+@media screen and (max-width:750px) {
+    .sidebar__text{
+        font-size: 24px;
+        top: 84px;
+        left: calc(50%-65px);
+    }
+    
+}

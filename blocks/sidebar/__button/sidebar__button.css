@@ -1,0 +1,27 @@
+.sidebar__button{
+    position: absolute;
+    background: url(../../../images/next.svg) transparent;
+    border: none;
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    right: 10px;
+    top: 235px;
+    cursor: pointer;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.sidebar__button:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width:750px) {
+    .sidebar__button{
+        width: 25px;
+        height: 25px;
+        top: 85px;
+        right: calc(50%-25px);
+        background: url(../../../images/up-arrow.svg) transparent;
+    }
+    
+}

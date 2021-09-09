@@ -1,0 +1,15 @@
+.page{
+    max-width: 100%;
+    font-family: 'IBM Plex Sans KR', Arial, sans-serif;
+    position: relative;
+    color: white;
+    background-image: url(../../images/background2.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width:750px) {
+    .page{
+        background: #131315;
+    }
+}

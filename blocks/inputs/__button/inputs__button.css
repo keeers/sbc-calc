@@ -1,0 +1,25 @@
+.inputs__button{
+    background: url(../../../images/down-arrow.svg) transparent;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.7s ease-in-out;
+    margin-left: 10px;
+}
+
+.inputs__button:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width:750px) {
+    .inputs__button{
+       width: 30px;
+       height: 30px;
+    }
+    
+}
+

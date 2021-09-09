@@ -1,0 +1,17 @@
+.inputs__input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.15;
+    border: 2px solid;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+    outline: none;
+}
+
+.inputs__input:focus{
+    border-image-source: linear-gradient(to right, yellow, lime);
+}
+

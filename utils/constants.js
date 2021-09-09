@@ -1,0 +1,15 @@
+export const finalRating = document.querySelector('.ratings__final');
+export const teamList = document.querySelector('.ratings__team');
+export const averageRating = document.querySelector('.ratings__average');
+export const inputList = document.querySelectorAll('.inputs__input');
+export const ratingSelector = ('.ratings__text');
+export const sidebar = document.querySelector('.sidebar');
+export const sidebarButton = document.querySelector('.sidebar__button');
+export const sidebarText = document.querySelector('.sidebar__text');
+export const sidebarLinks = document.querySelector('.sidebar__links');
+export const sidebarActive = 'sidebar_is-active';
+export const sidebarButtonActive = 'sidebar__button_is-active';
+export const sidebarTextActive = 'sidebar__text_is-active';
+export const sidebarLinksActive = 'sidebar__links_is-active';
+export const inputButton = document.querySelector('.inputs__button');
+export const inputSelector = '.inputs__input';

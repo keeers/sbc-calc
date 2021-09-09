@@ -1,0 +1,8 @@
+.inputs__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
