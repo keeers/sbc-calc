@@ -32,5 +32,5 @@
 .inputs__title{font-size:24px;font-weight:700;line-height:1.15;margin:0}@media screen and (max-width:750px){.inputs__title{font-size:20px}}
 .inputs__button{background:url(images/down-arrow.a9c72548d71c216ccbbb.svg) transparent;background-repeat:no-repeat;border:none;cursor:pointer;height:34px;margin:0 0 0 10px;padding:0;transition:opacity .7s ease-in-out;width:34px}.inputs__button:hover{opacity:.5}@media screen and (max-width:750px){.inputs__button{height:30px;width:30px}}
 .inputs__box{align-items:center;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;margin:0}
-.footer{background:#131315;height:40px;width:100%}
+.footer{display:none}@media screen and (max-width:750px){.footer{background:#131315;content:"";display:block;height:40px;width:100%}}
 
