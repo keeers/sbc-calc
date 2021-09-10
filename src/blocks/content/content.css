@@ -1,4 +1,5 @@
 .content{
+    height: 100vh;
     width: 90%;
     margin: 0;
     margin-left: 75px;
@@ -12,6 +13,8 @@
 
 @media screen and (max-width:750px) {
     .content{
+        min-height: 700px;
+        background: #131313;
         margin: 0 auto;
     }
 }

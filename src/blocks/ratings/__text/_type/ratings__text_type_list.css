@@ -7,6 +7,6 @@
 }
 
 .ratings__text_type_list:hover{
-    border-image-source: linear-gradient(to right, yellow, lime);
+    border-image-source: linear-gradient(to top, yellow, lime);
 }
 

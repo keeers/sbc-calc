@@ -40,7 +40,7 @@ export default class Ratings {
         };
         for (let i = 0; i < 100; i++) {
             if (this._teamCount[i] !== undefined) {
-                this._teamList = this._teamList + this._teamCount[i] + "@" + i + " ";
+                this._teamList = this._teamList + this._teamCount[i] + "x" + i + " ";
             };
         };
         return this._teamList;
